@@ -5,8 +5,9 @@ using System.Text;
 
 namespace CleanArch.Application.Interfaces
 {
-    interface ICourseService
+    public interface ICourseService
     {
-        IEnumerable<CourseViewModel> GetCourses();
+        //adjust from Ienumerable to courseviewmodel
+        CourseViewModel GetCourses();
     }
 }

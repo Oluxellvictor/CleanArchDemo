@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CleanArch.Infra.Data.Migrations
 {
     [DbContext(typeof(UniversityDBContext))]
-    [Migration("20190923153144_InitialMigration")]
+    [Migration("20190924141315_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
